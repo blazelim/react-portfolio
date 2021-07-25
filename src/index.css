@@ -301,3 +301,27 @@ a {
   background: rgb(46,37,230);
   background: linear-gradient(90deg, rgba(46,37,230,1) 35%, rgb(174, 0, 255) 100%);
 }
+
+.footer {
+  text-align: center;
+
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: rgba(148,216,255,1);
+  border-top: 1px black solid;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+.footer-link {
+  color: rgb(8,35,148);
+  font-size: 50px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-link:hover {
+  color: rgba(148,216,255,1);
+  text-decoration: none;
+}

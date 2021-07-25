@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Nav from "./components/Nav"
+import Footer from './components/Footer'
 
 function App() {
   const [pages] = useState([
@@ -18,6 +19,8 @@ function App() {
         currentPage = { currentPage }
         setPage = { setPage }
       ></Nav>
+
+      <Footer />
     </div>
   );
 }
