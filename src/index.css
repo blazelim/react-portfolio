@@ -158,6 +158,14 @@ nav  li {
   cursor: pointer;
 }
 
+nav {
+  color: rgb(255, 255, 255);
+  vertical-align: middle;
+  margin: 10px;
+  font-weight: 500;
+  font-size: large;
+}
+
 textarea {
 	width: 600px;
 	height: 120px;
@@ -172,7 +180,7 @@ textarea {
   margin-right: auto;
 }
 
-.flex-row {
+.myflex-row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -185,7 +193,7 @@ textarea {
   justify-content: flex-end;
 }
 
-.mx-1 {
+.mymx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
 }
@@ -210,7 +218,7 @@ textarea {
   margin-bottom: var(--spacing-five);
 }
 
-.px-1 {
+.mypx-1 {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
 }
@@ -294,12 +302,12 @@ a {
   color: var(--secondary);
 }
 
-.headerBar {
+.myheaderBar {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  background: rgb(46,37,230);
-  background: linear-gradient(90deg, rgba(46,37,230,1) 35%, rgb(174, 0, 255) 100%);
+  background: rgb(120,11,40);
+background: linear-gradient(90deg, rgba(120,11,40,1) 63%, rgba(255,0,0,1) 100%);
 }
 
 .footer {
@@ -324,4 +332,24 @@ a {
 .footer-link:hover {
   color: rgba(148,216,255,1);
   text-decoration: none;
+}
+
+.section-header {
+  color:rgba(0, 11, 167, 0.5)
+}
+
+.myphoto {
+  max-width: 100%;
+  height: 600px;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+.myphoto-container {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.about-padding {
+  margin-right: 100px;
 }

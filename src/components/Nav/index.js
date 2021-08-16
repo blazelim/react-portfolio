@@ -13,16 +13,16 @@ function Nav(props) {
     }, [currentPage])
 
     return (
-        <header className="flex-row px-1 headerBar">
+        <header className="myflex-row mypx-1 myheaderBar">
             <h2>
                 <a href="/">
                     Blaze Bentley Co Lim
                 </a>
             </h2>
             <nav>
-                <ul className='flex-row'>
+                <ul className='myflex-row'>
                     {pages.map((page) => (
-                        <li className={`mx-1 key=${page}`}>
+                        <li className={`mymx-1 key=${page}`}>
                             <span
                                 onClick={() => {
                                     setPage(page)
