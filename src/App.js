@@ -18,7 +18,7 @@ function App() {
   const [currentPage, setPage] = useState('about me')
 
   return (
-    <div>
+    <div className="page-container">
       <Nav
         pages = {pages}
         currentPage = { currentPage }
