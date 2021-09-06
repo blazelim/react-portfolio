@@ -436,3 +436,19 @@ background: linear-gradient(90deg, rgba(120,11,40,1) 63%, rgba(255,0,0,1) 100%);
 .project-text-container {
   top: 50px;
 }
+
+
+.download-container {
+  text-align: center;
+}
+
+.download {
+  text-align: center;
+  font-size: 24px;
+  color: rgba(8,35,148,1);
+}
+
+.download:hover {
+  color: rgba(0,114,255,1);
+  text-decoration: none;
+}
