@@ -384,6 +384,7 @@ background: linear-gradient(90deg, rgba(120,11,40,1) 63%, rgba(255,0,0,1) 100%);
 .about-padding {
   margin-right: 100px;
   color: #111111;
+  font: helvetica;
 }
 
 .myproject-container {
