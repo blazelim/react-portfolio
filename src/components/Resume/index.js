@@ -7,7 +7,7 @@ export default function Resume() {
             <div className="download-container">
                <a className="download" href="../../assets/Blaze_Lim_Resume_2021.docx" download>Download Resume</a>
             </div>
-            <div>
+            <div className="resume-text">
                 <h2>Front-End</h2>
                 <ul>
                     <li>HTML</li>
@@ -19,7 +19,7 @@ export default function Resume() {
                     <li>React</li>
                 </ul>
             </div>
-            <div>
+            <div className="resume-text">
                 <h2>Back-End</h2>
                 <ul>
                     <li>NodeJS</li>
@@ -32,7 +32,7 @@ export default function Resume() {
                     <li>Twilio NodeJS</li>
                 </ul>
             </div>
-            <div>
+            <div className="resume-text">
                 <h2>Development</h2>
                 <ul>
                     <li>Node</li>
