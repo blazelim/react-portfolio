@@ -455,3 +455,7 @@ background: linear-gradient(90deg, rgba(120,11,40,1) 63%, rgba(255,0,0,1) 100%);
   color: rgba(0,114,255,1);
   text-decoration: none;
 }
+
+.resume-text {
+  color: #111111
+}
