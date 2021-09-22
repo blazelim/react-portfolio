@@ -11,7 +11,7 @@ function App() {
   const [pages] = useState([
     'about me',
     'projects',
-    'contact',
+    'why coding',
     'resume'
   ])
 
@@ -28,7 +28,7 @@ function App() {
         {
           'about me': <About />,
           'projects': <Projects />,
-          'contact': <Contact />,
+          'contact': <WhyCoding />,
           'resume': <Resume />
         }[currentPage]
       }

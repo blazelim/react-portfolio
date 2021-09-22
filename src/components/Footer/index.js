@@ -1,18 +1,17 @@
 import React from 'react';
 // import github and repo icons for footer links using fontawesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faCode } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const ghIcon = <FontAwesomeIcon icon={faGithub} />
-const repoIcon = <FontAwesomeIcon icon={faCode} />
+const repoIcon = <FontAwesomeIcon icon={faLinkedin} />
 
 // export Footer function
 export default function Footer() {
     return (
         <footer className="footer">
             <a className="footer-link" href="https://github.com/blazelim">{ghIcon}</a>
-            <a className="footer-link" href="https://github.com/blazelim/react-portfolio">{repoIcon}</a>
+            <a className="footer-link" href="https://www.linkedin.com/in/blaze-bentley-814852187/">{repoIcon}</a>
         </footer>
     )
 }
