@@ -5,6 +5,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
+import WhyCoding from './components/WhyCoding'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
         {
           'about me': <About />,
           'projects': <Projects />,
-          'contact': <WhyCoding />,
+          'why coding': <WhyCoding />,
           'resume': <Resume />
         }[currentPage]
       }
