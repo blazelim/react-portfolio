@@ -23,11 +23,11 @@ function Projects() {
             </div>
 
             <div className="row myproject-container">
-                <div className="col single-container">
-                    <a href="https://github.com/blazelim/pseudo-twitter">
-                    <img className="projectPhoto col" src={require("../../assets/pseudotwitter.png").default}></img>
+            <div className="col single-container">
+                    <a href="https://young-bayou-41268.herokuapp.com/">
+                    <img className="projectPhoto col" src={require("../../assets/booksearch.png").default}></img>
                     <div className="project-text-container">
-                       <h2 className="project-text">Pseudo Twitter<h4 className="project-description">A Social Media Backend</h4></h2>
+                       <h2 className="project-text">Book Search<h4 className="project-description">Never forget your Reading List</h4></h2>
                     </div>
                     </a>
                 </div>
@@ -55,25 +55,6 @@ function Projects() {
                     <img className="projectPhoto col" src={require("../../assets/photoport.png").default}></img>
                     <div className="project-text-container">
                        <h2 className="project-text">Photo Port<h4 className="project-description">Sample Photography Portfolio</h4></h2>
-                    </div>
-                    </a>
-                </div>
-            </div>
-
-            <div className="row myproject-container">
-                <div className="col single-container">
-                    <a href="https://young-bayou-41268.herokuapp.com/">
-                    <img className="projectPhoto col" src={require("../../assets/booksearch.png").default}></img>
-                    <div className="project-text-container">
-                       <h2 className="project-text">Book Search<h4 className="project-description">Never forget your Reading List</h4></h2>
-                    </div>
-                    </a>
-                </div>
-                <div className="col single-container">
-                    <a href="https://blazelim.github.io/photo-port/">
-                    <img className="projectPhoto col" src={require("../../assets/photoport.png").default}></img>
-                    <div className="project-text-container">
-                       <h2 className="project-text">Food Festival<h4 className="project-description">A Sample PWA for a festival</h4></h2>
                     </div>
                     </a>
                 </div>
