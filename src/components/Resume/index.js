@@ -5,7 +5,7 @@ export default function Resume() {
     return (
         <div className="resume">
             <div className="download-container">
-               <a className="download" href="../../assets/Blaze_Lim_Resume_2021.docx" download>Download Resume</a>
+               <a className="download" href="https://drive.google.com/file/d/1Ifn6YVibMkOZaPQBhQ1qF5OyLCcuUgDL/view?usp=sharing">Open Resume</a>
             </div>
             <div className="resume-text">
                 <h2>Front-End</h2>
