@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.b1ba777b.chunk.css",
+    "main.css": "/react-portfolio/static/css/main.33500d0d.chunk.css",
     "main.js": "/react-portfolio/static/js/main.0c7eb1eb.chunk.js",
     "main.js.map": "/react-portfolio/static/js/main.0c7eb1eb.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.be8392cb.js",
@@ -12,7 +12,7 @@
     "static/js/3.68c8b933.chunk.js.map": "/react-portfolio/static/js/3.68c8b933.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.9082872e.chunk.css.map": "/react-portfolio/static/css/2.9082872e.chunk.css.map",
-    "static/css/main.b1ba777b.chunk.css.map": "/react-portfolio/static/css/main.b1ba777b.chunk.css.map",
+    "static/css/main.33500d0d.chunk.css.map": "/react-portfolio/static/css/main.33500d0d.chunk.css.map",
     "static/js/2.61fb6e11.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.61fb6e11.chunk.js.LICENSE.txt",
     "static/media/deepthoughts.png": "/react-portfolio/static/media/deepthoughts.5d7b27d4.png",
     "static/media/dimmer.png": "/react-portfolio/static/media/dimmer.019affd3.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.be8392cb.js",
     "static/css/2.9082872e.chunk.css",
     "static/js/2.61fb6e11.chunk.js",
-    "static/css/main.b1ba777b.chunk.css",
+    "static/css/main.33500d0d.chunk.css",
     "static/js/main.0c7eb1eb.chunk.js"
   ]
 }
