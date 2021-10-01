@@ -14,7 +14,7 @@ function About() {
                         <p>Email: blazebentleycolim@gmail.com</p>
                         <p>Phone: (626) 863-3503</p>
                         <p>Find my GitHub Here: <a href="https://github.com/blazelim">/blazelim</a></p>
-                        <p>Find my LinkedIn Here:<a href="https://www.linkedin.com/in/blaze-bentley-814852187/">Blaze Bentley Co Lim</a></p>
+                        <p>Find my LinkedIn Here:<a href="https://www.linkedin.com/in/blaze-lim-814852187">Blaze Bentley Co Lim</a></p>
                     </div>
                 </div>
             </div>

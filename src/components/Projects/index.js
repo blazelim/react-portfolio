@@ -3,6 +3,8 @@ import React from 'react';
 function Projects() {
     return(
         <div className="portfolio-container">
+
+            {/* manage-it */}
             <div className="row myproject-container">
                 <div className="col single-container">
                     <a href="https://cryptic-bastion-04157.herokuapp.com/">
@@ -13,24 +15,19 @@ function Projects() {
                     </a>
                 </div>
                 <div className="col single-container">
-                    <a href="https://evening-fjord-88647.herokuapp.com/">
-                    <img className="projectPhoto col" src={require("../../assets/friedsnacksdiner.png").default}></img>
-                    <div className="project-text-container">
-                       <h2 className="project-text">Fried Snacks Diner<h4 className="project-description">Delicious Taiwanese Street Food</h4></h2>
-                    </div>
-                    </a>
+                    <h2>Hello there</h2>
+                    <p>general kanobi sadfasdfasdfasdf sd fasdfasdfsdf sadf asdf asdfsdf sadf  sdfsdfsdaffasdfasd fasdfasdfasdfsdfasdfsdfasdfs</p>
+                    <h3>Tools Used: REEASDASDFASDF</h3>
+                    <h3>Github Repo: Linnnnkkkkkkk</h3>
+                    <h3>Testing Account</h3>
+                    <p>Username: hireBlazeToday@email.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Password: password</p>
+
                 </div>
             </div>
 
+            {/* Taiwanese Street */}
             <div className="row myproject-container">
-            <div className="col single-container">
-                    <a href="https://young-bayou-41268.herokuapp.com/">
-                    <img className="projectPhoto col" src={require("../../assets/booksearch.png").default}></img>
-                    <div className="project-text-container">
-                       <h2 className="project-text">Book Search<h4 className="project-description">Never forget your Reading List</h4></h2>
-                    </div>
-                    </a>
-                </div>
+
                 <div className="col single-container">
                     <a href="https://still-badlands-04219.herokuapp.com/">
                     <img className="projectPhoto col" src={require("../../assets/shopshop.png").default}></img>
@@ -39,8 +36,30 @@ function Projects() {
                     </div>
                     </a>
                 </div>
+
+                <div className="col single-container">
+
+                </div>
             </div>
 
+            {/* Shop Shop */}
+            <div className="row myproject-container">
+                <div className="col single-container">
+                    <a href="https://evening-fjord-88647.herokuapp.com/">
+                    <img className="projectPhoto col" src={require("../../assets/friedsnacksdiner.png").default}></img>
+                    <div className="project-text-container">
+                       <h2 className="project-text">Fried Snacks Diner<h4 className="project-description">Delicious Taiwanese Street Food</h4></h2>
+                    </div>
+                    </a>
+                </div>
+
+                <div className="col single-container">
+
+                </div>
+            </div>
+
+
+            {/* Deep Thoughts */}
             <div className="row myproject-container">
                 <div className="col single-container">
                     <a href="https://majestic-yellowstone-90978.herokuapp.com/">
@@ -50,13 +69,9 @@ function Projects() {
                     </div>
                     </a>
                 </div>
+
                 <div className="col single-container">
-                    <a href="https://blazelim.github.io/photo-port/">
-                    <img className="projectPhoto col" src={require("../../assets/photoport.png").default}></img>
-                    <div className="project-text-container">
-                       <h2 className="project-text">Photo Port<h4 className="project-description">Sample Photography Portfolio</h4></h2>
-                    </div>
-                    </a>
+
                 </div>
             </div>
         </div>
