@@ -14,7 +14,7 @@ function Projects() {
                     </div>
                     </a>
                 </div>
-                <div className="col single-container">
+                <div className="col single-container project-description">
                     <h2>Description</h2>
                     <p>Manage mundane repetitve tasks quickly and easily. 
                         Send reminders via a timed text to yourself or others. 
@@ -38,7 +38,7 @@ function Projects() {
                     </a>
                 </div>
 
-                <div className="col single-container">
+                <div className="col single-container project-description">
                 <h2>Description</h2>
                     <p>A sample eCommerce storefront using a backend to organize the products as well as Redux to manage global variables</p>
                     <h3>Tools Used: React, Redux, MongoDB, GraphQL, Stripe</h3>
@@ -57,7 +57,7 @@ function Projects() {
                     </a>
                 </div>
 
-                <div className="col single-container">
+                <div className="col single-container project-description">
                     <h2>Description</h2>
                     <p>Order delicious taiwanese style street food from Fried Snacks Diner! (Or at least pretend to as our planned client didn't go through with his shop)</p>
                     <h3>Tools Used: React, Redux, MongoDB, GraphQL, Stripe, React, Redux</h3>
@@ -77,7 +77,7 @@ function Projects() {
                     </a>
                 </div>
 
-                <div className="col single-container">
+                <div className="col single-container project-description">
                 <h2>Description</h2>
                     <p>Share your thoughts with your friends. See what your friends think and react to what they post</p>
                     <h3>Tools Used: GraphQL, Faker, Express, MongoDB, React</h3>

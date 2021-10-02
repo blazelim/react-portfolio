@@ -408,6 +408,10 @@ background: linear-gradient(90deg, rgba(120,11,40,1) 63%, rgba(255,0,0,1) 100%);
   filter:opacity(65%);
 }
 
+.project-description {
+  color:black;
+}
+
 .single-container {
   position: relative;
 }
