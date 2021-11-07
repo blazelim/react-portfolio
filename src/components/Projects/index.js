@@ -86,6 +86,27 @@ function Projects() {
                     <p>Username: testingaccount@email.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Password: password</p>
                 </div>
             </div>
+
+            {/* Deep Thoughts */}
+            <div className="row myproject-container">
+                <div className="col single-container">
+                    <a href="https://python-justtechnews.herokuapp.com/">
+                    <img className="projectPhoto col" src={require("../../assets/justtechnews.png").default}></img>
+                    <div className="project-text-container">
+                       <h2 className="project-text">Just Tech News<h4 className="project-description">Click here for the application</h4></h2>
+                    </div>
+                    </a>
+                </div>
+
+                <div className="col single-container project-description-text">
+                <h2>Description</h2>
+                    <p>Share cool websites you find with your friends!</p>
+                    <h3>Tools Used: Python, SQL, Flask</h3>
+                    <h3>Github Repo: <a href="https://github.com/blazelim/python-newsfeed">https://github.com/blazelim/python-newsfeed</a></h3>
+                    <h3>Testing Account</h3>
+                    <p>Username: testingaccount@email.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Password: password</p>
+                </div>
+            </div>
         </div>
     )
 }
