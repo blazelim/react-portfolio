@@ -107,6 +107,25 @@ function Projects() {
                     <p>Username: testingaccount@email.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Password: password</p>
                 </div>
             </div>
+
+            {/* Catworks */}
+            <div className="row myproject-container">
+                <div className="col single-container">
+                    <a href="https://github.com/blazelim/catworx">
+                    <img className="projectPhoto col" src={require("../../assets/catworx.png").default}></img>
+                    <div className="project-text-container">
+                       <h2 className="project-text">Catworx<h4 className="project-description">Click here for the repo</h4></h2>
+                    </div>
+                    </a>
+                </div>
+
+                <div className="col single-container project-description-text">
+                <h2>Description</h2>
+                    <p>Create badges for your team!</p>
+                    <h3>Tools Used: C#, .Net</h3>
+                    <h3>Github Repo: <a href="https://github.com/blazelim/catworx">https://github.com/blazelim/catworx</a></h3>
+                </div>
+            </div>
         </div>
     )
 }
